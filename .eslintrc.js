@@ -1,12 +1,7 @@
 module.exports = {
-    // extends: 'eslint:recommended',
-    // extends: ['plugin:@typescript-eslint/eslint-recommended'],
-    parser: '@typescript-eslint/parser',
     parserOptions: {
-        sourceType: 'module',
-        project: './tsconfig.json'
+        sourceType: 'module'
     },
-    // plugins: ['@typescript-eslint'],
     env: {
         es6: true,
         browser: true,
@@ -46,9 +41,5 @@ module.exports = {
         'no-var': 'off'
     },
     globals: {
-        XDomainRequest: true,
-        swfobject: true,
-        GomePlayer: true,
-        PlayerVersion: true
     }
 };
